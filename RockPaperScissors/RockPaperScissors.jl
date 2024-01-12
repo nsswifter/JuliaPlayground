@@ -1,7 +1,7 @@
 # Rock 🪨, Paper 📃, Scissors ✂️ Game
 
 # Determine and display the winner
-function determine_winner(computer_move::String, human_move::String)
+function determine_winner(computer_move::AbstractString, human_move::AbstractString)
     if computer_move == human_move
         # If both moves are the same, it's a tie
         println("It's a tie! Please try again.")
@@ -14,6 +14,8 @@ function determine_winner(computer_move::String, human_move::String)
         # If none of the above conditions are met, the human wins
         print("You won, the computer lost with $computer_move, nice work!")
     end
+    
+    println('\n')
 end
 
 # Function to play the Rock, Paper, Scissors game
