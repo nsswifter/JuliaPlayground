@@ -1,5 +1,17 @@
 using JSON
 
+function get_notable_alumni_dict(data)
+    notable_alumni_dict = Dict{String, Vector{String}}()
+
+    for university in data["universities"]
+        name = university["name"]
+        alumni = university["notable_alumni"]
+        notable_alumni_dict[name] = alumni
+    end
+
+    return notable_alumni_dict
+end
+
 # Provided JSON data with 6 universities
 json_data = """
 {
@@ -61,3 +73,15 @@ json_data = """
   ]
 }
 """
+
+# Parse JSON
+parsed_data = JSON.parse(json_data)
+
+# Get dictionary of university names and notable alumni
+notable_alumni_dict = get_notable_alumni_dict(parsed_data)
+
+# Print the result
+println("Dictionary of University Names and Notable Alumni:")
+for (name, alumni) in notable_alumni_dict
+    println("$name: $alumni")
+end
