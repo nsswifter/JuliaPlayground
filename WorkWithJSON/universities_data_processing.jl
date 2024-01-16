@@ -12,6 +12,16 @@ function get_notable_alumni_dict(data)
     return notable_alumni_dict
 end
 
+function get_locations(data)
+    locations = []
+
+    for university in data["universities"]
+        push!(locations, university["location"])
+    end
+
+    return locations
+end
+
 # Provided JSON data with 6 universities
 json_data = """
 {
@@ -85,3 +95,9 @@ println("Dictionary of University Names and Notable Alumni:")
 for (name, alumni) in notable_alumni_dict
     println("$name: $alumni")
 end
+
+# Get array of locations
+locations = get_locations(parsed_data)
+
+# Print the result
+println("Array of Locations: ", locations)
