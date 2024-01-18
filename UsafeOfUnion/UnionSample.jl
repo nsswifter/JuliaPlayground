@@ -18,3 +18,7 @@ end
 result1 = process_input(42)
 result2 = process_input(3.14)
 result3 = process_input("Hello, Julia!")
+
+println(result1)  # Output: Received an integer: 42
+println(result2)  # Output: Received a float: 3.14
+println(result3)  # Output: Received a string: Hello, Julia!
