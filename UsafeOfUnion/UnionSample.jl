@@ -13,3 +13,8 @@ function process_input(value::input_type)
         return "Unsupported input type"
     end
 end
+
+# Examples
+result1 = process_input(42)
+result2 = process_input(3.14)
+result3 = process_input("Hello, Julia!")
