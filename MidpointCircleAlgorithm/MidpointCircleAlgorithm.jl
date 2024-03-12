@@ -50,15 +50,27 @@ function draw_circle(center::Point, radius::Int)
     # Get circle points using Midpoint Circle Algorithm
     circle_points = midpoint_circle_algorithm(radius)
     # Plot circle points
-    scatter!([point.x + center.x for point in circle_points], [point.y + center.y for point in circle_points], aspect_ratio=:equal, legend=false, markersize=5, marker=:circle)
+    scatter!([point.x + center.x for point in circle_points],
+             [point.y + center.y for point in circle_points], 
+             aspect_ratio=:equal, 
+             legend=false, 
+             markersize=5, 
+             marker=:circle, 
+             color=:blue)
 end
 
 # Define circle parameters
-center = Point(50, 50)
+center = Point(0, 0)
 radius = 50
 
-# Create an empty plot
+# Setup plot
 plot(background_color="#0E0D24")
+scatter!([center.x], [center.y], color=:red, markersize=5)
+
+# Label the x-axis as "X", y-axis as "Y", and give the plot a title
+xlabel!("X")
+ylabel!("Y")
+title!("Midpoint Circle Algorithm (Vectorized)")
 
 # Draw the circle
 draw_circle(center, radius)
