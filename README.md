@@ -4,6 +4,8 @@ Where I Explore and Experiment with Julia Programming Language!
 &nbsp;
 &nbsp;
 
+## Projects
+
 [Midpoint Circle Algorithm](https://github.com/nsswifter/JuliaPlayground/blob/main/MidpointCircleAlgorithm/MidpointCircleAlgorithm.jl)
 
 <img src="MidpointCircleAlgorithm/MidpointCircleAlgorithmDemo.png">
