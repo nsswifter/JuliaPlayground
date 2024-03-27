@@ -8,6 +8,6 @@ Where I Explore and Experiment with Julia Programming Language!
 
 <img src="MidpointCircleAlgorithm/MidpointCircleAlgorithmDemo.png">
 
-[MDigital Differential Analyzer Algorithm](https://github.com/nsswifter/JuliaPlayground/blob/main/DigitalDifferentialAnalyzerAlgorithm/DigitalDifferentialAnalyzerAlgorithm.jl)
+[Digital Differential Analyzer Algorithm](https://github.com/nsswifter/JuliaPlayground/blob/main/DigitalDifferentialAnalyzerAlgorithm/DigitalDifferentialAnalyzerAlgorithm.jl)
 
 <img src="DigitalDifferentialAnalyzerAlgorithm/DigitalDifferentialAnalyzerAlgorithmDemo.png">
