@@ -13,3 +13,7 @@ Where I Explore and Experiment with Julia Programming Language!
 [Digital Differential Analyzer Algorithm](https://github.com/nsswifter/JuliaPlayground/blob/main/DigitalDifferentialAnalyzerAlgorithm/DigitalDifferentialAnalyzerAlgorithm.jl)
 
 <img src="DigitalDifferentialAnalyzerAlgorithm/DigitalDifferentialAnalyzerAlgorithmDemo.png">
+
+[Bresenham's Line Algorithm](https://github.com/nsswifter/JuliaPlayground/blob/main/BresenhamLineAlgorithm/BresenhamLineAlgorithm.jl)
+
+<img src="BresenhamLineAlgorithm/BresenhamLineAlgorithm.png">
