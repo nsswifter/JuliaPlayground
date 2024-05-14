@@ -17,3 +17,11 @@ Where I Explore and Experiment with [Julia Programming Language](https://github.
 [Bresenham's Line Algorithm](https://github.com/nsswifter/JuliaPlayground/blob/main/BresenhamLineAlgorithm/BresenhamLineAlgorithm.jl)
 
 <img src="BresenhamLineAlgorithm/BresenhamLineAlgorithm.png">
+
+[Bresenham's Line Algorithm 2](https://github.com/nsswifter/JuliaPlayground/blob/main/BresenhamLineAlgorithm/BresenhamLineAlgorithm2.jl)
+
+<img src="BresenhamLineAlgorithm/BresenhamLineAlgorithm2.png">
+
+[Bresenham's Circle Algorithm](https://github.com/nsswifter/JuliaPlayground/blob/main/BresenhamCircleAlgorithm/BresenhamCircleAlgorithm.jl)
+
+<img src="BresenhamCircleAlgorithm/BresenhamCircleAlgorithm.png">
