@@ -25,3 +25,7 @@ Where I Explore and Experiment with [Julia Programming Language](https://github.
 [Bresenham's Circle Algorithm](https://github.com/nsswifter/JuliaPlayground/blob/main/BresenhamCircleAlgorithm/BresenhamCircleAlgorithm.jl)
 
 <img src="BresenhamCircleAlgorithm/BresenhamCircleAlgorithm.png">
+
+[Bresenham's Oval Algorithm](https://github.com/nsswifter/JuliaPlayground/blob/main/BresenhamOvalAlgorithm/BresenhamOvalAlgorithm.jl)
+
+<img src="BresenhamOvalAlgorithm/BresenhamOvalAlgorithm.png">
