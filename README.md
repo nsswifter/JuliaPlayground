@@ -6,6 +6,15 @@ Where I Explore and Experiment with [Julia Programming Language](https://github.
 
 ## Projects
 
+[Julia Code Demo](JuliaCodeDemo/julia-code-demo.ipynb)
+
+
+
+<p align="center"> <a href="JuliaCodeDemo/julia-code-demo.ipynb"> <img src="JuliaCodeDemo/julia.png" height="100"/> </a></p>
+
+
+&nbsp;
+
 [Midpoint Circle Algorithm](MidpointCircleAlgorithm/MidpointCircleAlgorithm.jl)
 
 <img src="MidpointCircleAlgorithm/MidpointCircleAlgorithmDemo.png">
